@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interativo</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div class="map-container">
+        <!-- Mapa embutido com iframe -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4518284219325!2d-37.1094627255625!3d-10.929201989229009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab26ae3e7deed%3A0x6790db2a304f4e69!2sC.E%20Armindo%20Guaran%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1725516879637!5m2!1spt-BR!2sbr"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <button class="locate-button" type="button" onclick="window.location.href='pesquisa.html'">Indique sua localização mais próxima</button>
+    </div>
+</body>
+</html>

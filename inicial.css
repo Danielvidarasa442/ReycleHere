@@ -1,0 +1,34 @@
+.map-container {
+    position: relative;
+    width: 1520px; /* Largura do iframe ajustada */
+    height: 610px; /* Altura do iframe ajustada */
+    margin-top: 0px;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;  /* O iframe se ajusta ao tamanho do container */
+    height: 100%;
+    border: 5%;
+}
+
+.marker {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.locate-button {
+    position: absolute;
+    bottom: -100px;  /* Ajustado para colocar o botão abaixo do mapa */
+    left: 50%;      /* Centraliza o botão horizontalmente */
+    transform: translateX(-50%);  /* Move o botão 50% para a esquerda */
+    padding: 30px 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
